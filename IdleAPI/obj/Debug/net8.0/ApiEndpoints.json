@@ -1,0 +1,82 @@
+[
+  {
+    "ContainingType": "IdleAPI.Controllers.ApiController",
+    "Method": "AuthenticateUser",
+    "RelativePath": "api/v1/auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdleAPI.Controllers.ApiController",
+    "Method": "ClaimReward",
+    "RelativePath": "api/v1/claim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdleAPI.Controllers.ApiController",
+    "Method": "SetConfig",
+    "RelativePath": "api/v1/config",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RequestBody",
+        "Type": "IdleAPI.Services.ConfigHandler\u002BConfigRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdleAPI.Controllers.ApiController",
+    "Method": "GetSessionInfo",
+    "RelativePath": "api/v1/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IdleAPI.Controllers.ApiController",
+    "Method": "StartSession",
+    "RelativePath": "api/v1/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "access_token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
